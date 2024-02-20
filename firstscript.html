@@ -1,0 +1,28 @@
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFirstScript</title>
+    <link rel="stylesheet" href="firstscr.css">
+    <script src="firstscr.js"></script>
+    <script>function message(){
+        alert("Welcome to my website");
+    }
+    </script>
+</head>
+<body style="background-color: antiquewhite;">
+    <script>message();</script>
+    <center>
+    <button id="mybutt" type = "button" onclick="openText()">Open me</button>
+    <button  type = "button" onclick="closeText()">Close me</button>
+    <br><br><br><br>
+    <div style = "color: black; font-size: 50px;" id="demo">Toi la batman va toi can giai cuu the gioi, hay cho toi pass bai nay</div>
+    <br><br><br>
+    <a href="https://dunkdat.github.io/joshhutterson/Josh.html">
+    <button onmouseover="document.getElementById('demo').innerHTML='ARE YOU SURE';"
+    onmouseout="document.getElementById('demo').innerHTML='Toi la batman va toi can giai cuu the gioi, hay cho toi pass bai nay';"
+    >CLICK ME BAE</button></a>
+</center>
+</body>
+</html>
